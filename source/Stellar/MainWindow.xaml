@@ -621,7 +621,7 @@
                  Height="20"
                  Margin="77,15,0,0" 
                  VerticalAlignment="Top"
-                 Width="369" 
+                 Width="343" 
                  Background="Black" 
                  Foreground="White" 
                  PreviewMouseDown="textBoxLocation_PreviewMouseDown" 
@@ -891,6 +891,7 @@
                        Text="Update" 
                        Margin="0,-1,0,0"/>
         </Button>
+        <Button x:Name="buttonAppdata" Content="Button" HorizontalAlignment="Left" Margin="425,15,0,0" VerticalAlignment="Top" Width="19" RenderTransformOrigin="0.288,1.471" Click="buttonAppdata_Click"/>
 
     </Grid>
 </Window>

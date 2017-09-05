@@ -371,6 +371,17 @@ namespace Stellar
             // List_RejectedCores_Name
         }
 
+        // -----------------------------------------------
+        // Set to path to %appdata%\Retroarch 
+        // -----------------------------------------------
+        private void buttonAppdata_Click(object sender, RoutedEventArgs e)
+        {
+            // Find %appdata%\Retroarch
+            textBoxLocation.Text = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData) + @"\Retroarch\";
+
+            // Set the Paths.retroarchPath string
+            Paths.retroarchPath = textBoxLocation.Text;
+        }
 
         // -----------------------------------------------
         // Folder Browser Popup 
